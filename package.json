@@ -8,12 +8,15 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_2e19846699fe4d4"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.1",
     "next": "14.2.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.0",
@@ -25,6 +28,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.0",
+    "chromatic": "^13.3.0",
     "css-loader": "^7.1.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.0",
